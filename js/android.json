@@ -1,0 +1,107 @@
+{
+    "contact_info": {
+        "name": "Matthew Kunkel",
+        "address1": "San Francisco",
+        "address2": "CA",
+        "phone": {
+            "number": "(234) 542-3763",
+            "link": "tel:234-542-3763"
+        },
+        "email": {
+            "address": "matt@mrkunkel.com",
+            "link": "mailto:matt@mrkunkel.com"
+        }
+    },
+    "about_me": [
+        { "info": "12 years of experience in software development building end to end solutions." },
+        { "info": "Passionate about learning and using new technology and programming languages." }
+    ],
+    "jobs": [
+        {
+            "title": "Lead Software Engineer",
+            "co": "NASA Glenn Research Center - ASRC / Vantage Partners, LLC",
+            "start_date": "2010",
+            "end_date": "Present",
+            "achievements": [
+                {"info":"Lead Software Engineer responsible for design and implementation of a system to manage all Engineering Division network licenses and resources allowing the IT division to increase its user base by almost 300% without any additional staff resources."},
+                {"info":"The system dynamically creates firewall rules, license server whitelists, and file-share permissions to control access to licenses, installers, and run-trees for approximately 800 users and 90 applications, saving both time and money for project groups."},
+                {"info":"Implemented a C# application to automate gathering users' computer information required for automated dynamic whitelist configuration saving time for team members."},
+                {"info":"Implemented algorithms to parse license server logs and provide license utilization reports allowing NASA to reduce the number of required licenses and save thousands of dollars."}
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "co": "NASA Glenn Research Center - RSIS / Wyle Information Systems",
+            "start_date": "2003",
+            "end_date": "2010",
+            "achievements": [
+                {"info":"Lead Software Engineer responsible for directing a team of engineers to build GLIDE, a data-exchange application supporting hundreds of users across the NASA Agency. It enables multiple engineering disciplines to collaboratively design spacecraft in real-time without having to travel between centers and is currently still maintained and used weekly."},
+                {"info":"Designed and implemented as a client-server model enabling cross-platform support and the framework to allow integration into third-party applications through a RESTful API."},
+                {"info":"Added a chat-room, file-sharing, revision history and control, and parameter value graphing to monitor changes over time allowing the users to remain in the application while still completing secondary tasks."}
+            ]
+        }
+    ],
+    "skills": [
+        { "info": "Languages: Java, Android SDK, PHP, HTML5, SASS/CSS, Angular, JavaScript" },
+        { "info": "Databases: MySQL, MongoDB, PostgreSQL" },
+        { "info": "Servers and Services: nginx, Apache, git" },
+        { "info": "Linux: Ubuntu, CentOS, Debian" }
+    ],
+    "projects": [
+        {
+            "title": "Android Applications",
+            "name": "HeadRest",
+            "link": "http://headrest.mrkunkel.com",
+            "detail": "A dynamically-driven application that builds the entire interface from a service description generated on a user-defined server. Built to enable remote control of anything."
+        },
+        {
+            "title": "Pebble / Particle Applications",
+            "name": "HeadRest",
+            "link": "https://github.com/modulusx",
+            "detail": "A combination of two apps, headrest-for-particle, which runs on a Particle/Spark Core, and headrest-for-pebble, which runs on a Pebble Watch.  The Pebble app is configured to securely connect to the Particle API and remotely switch the output of pin D7 to high or low.  If pin D6 is triggered on the Particle device, the Pebble Watch receives a notification. This could be used to enable home automation or security, or anything else requiring remote interface to switchable hardware."
+        },
+        {
+            "title": "Volunteering",
+            "name": "FIRST Robotics",
+            "link": "http://www.usfirst.org/",
+            "detail": "3 years as a Robot Inspector assuring safety and compliance for teams robots."
+        },
+        {
+            "title": "Volunteering",
+            "name": "NASA Exploring Post 631 - Computer Technology",
+            "link": "https://explorersposts.grc.nasa.gov/",
+            "detail": "2 years teaching, presenting, and providing help and inspiration to high school STEM students on opportunities in science, technology, engineering, and mathematics (STEM) including Lego NXT Robots, Arduinos, Programming and Web Development."
+        }
+    ],
+    "degrees": [
+        {
+            "co": "Cleveland State University",
+            "year": "2012",
+            "name": "M.S. in Software Engineering, GPA 4.0"
+        },
+        {
+            "co": "University of Akron",
+            "year": "2006",
+            "name": "B.S. in Computer Science, Minor in Spanish"
+        }
+    ],
+    "awards": [
+        {
+            "org": "Boy Scouts of America",
+            "year": "1998",
+            "name": "Eagle Scout"
+        }
+    ],
+    "social": [
+        {
+            "img": "img/in.jpg",
+            "tooltip": "Connect with me on LinkedIn!",
+            "link": "https://www.linkedin.com/in/mrkunkel"
+        },
+        {
+            "img": "img/gh.png",
+            "tooltip": "Check out my github projects!",
+            "link": "https://github.com/modulusx"
+        }
+    ]
+}

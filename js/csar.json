@@ -1,0 +1,118 @@
+{
+    "contact_info": {
+        "name": "Matt Kunkel",
+        "address1": "Old Ranch Drive",
+        "address2": "Santa Rosa, CA",
+        "phone": {
+            "number": "(415) 404-9053",
+            "link": "tel:415-404-9053"
+        },
+        "email": {
+            "address": "matt@mrkunkel.com",
+            "link": "mailto:matt@mrkunkel.com"
+        }
+    },
+    "about_me": [
+        { "info": "Passionate about the effective use of current technology to automate all things and enable faster turn-around time with less errors at a high degree of reusability. Constantly challenging the status quo and promoting a yes-we-can atmosphere by solutioning around blockers using simple solutions that can be expanded over time to meet future needs." }
+    ],
+    "jobs": [
+        {
+            "title": "Linux Cloud Engineer / IT Operations Lead",
+            "co": "MuleSoft",
+            "start_date": "2016",
+            "end_date": "2018",
+            "achievements": [
+                {"info":"Designed and implemented a CI/CD pipeline utilizing AWS Step Functions, Lambda, and ECS Docker containers enabling the webteam to migrate websites from a PHP-based CMS to Jekyll-based static site. Pushing updated site content to GitHub invokes a MuleSoft Application Network that parses GitHub events and initiates the pipeline to build and deploy the code with Slack-based notifications on completion or error."},
+                {"info":"Automated the deployment of LifeSize videoconferencing systems by utilizing Ansible Tower to provide a user survey to helpdesk to rapidly configure a new or factory reset device within 5 minutes."},
+                {"info":"Designed the migration from one AWS account to five accounts with externally managed identity and reporting. Began building out the automation using CloudFormation to spin up AWS infrastructure and Ansible to configure the system. Designed a CLI to enable federated users to obtain temporary CLI credentials."},
+                {"info":"Automated creation of Branch Office monitoring within LogicMonitor to provide consistency and assist in the hardware deployment when opening new offices by acting as a live checklist of required resources."}
+            ]
+        },
+        {
+            "title": "DevOps Engineer",
+            "co": "NASA Glenn Research Center - ASRC / Vantage Partners, LLC",
+            "start_date": "2010",
+            "end_date": "Present",
+            "achievements": [
+                {"info":"Responsible for design and implementation of an access control system (ESO Admin) to manage all Engineering Division network licenses and resources allowing the Engineering Division IT Staff to increase its user base by almost 300% without any additional staff resources."},
+                {"info":"The system, titled ESO Admin Tool, dynamically creates firewall rules, license server whitelists, and file-share permissions to control access to licenses, installers, and run-trees for approximately 800 users and 90 applications, saving time and money for project groups."},
+                {"info":"Implemented a C# application to automate gathering users' computer information required for automated dynamic whitelist configuration saving time for team members and allowing users to one-click install network printers without knowledge of print queues."},
+                {"info":"Implemented algorithms and configured Splunk to parse license server logs and provide license utilization reports allowing NASA to reduce the number of required licenses and save thousands of dollars. Embedded Splunk dashboard panels into the ESO Admin Tool to allow the Operations team to quickly and easily view system health."},
+                {"info":"Configured Zabbix, running in Docker, to monitor system status and various specific Windows and Linux services on all Engineering Division systems. Configured Splunk to enable application and system monitoring of network services and to expedite troubleshooting problems with network license contention by embedding dashboard reporting panels on the previously mentioned PHP webapp."},
+                {"info":"Configured and managed Apache, nginx, MySQL, Subversion, Gitlab, MediaWiki, WordPress and Atlassian products including Jira, Confluence, Fisheye, and Crucible."},
+                {"info":"Provisioned and managed Virtual Machines on VMware vSphere allowing for a reduction in hardware systems and greater resource utilization."}
+            ]
+        },
+        {
+            "title": "Systems Administrator / Software Engineer",
+            "co": "NASA Glenn Research Center - RSIS / Wyle Information Systems",
+            "start_date": "2003",
+            "end_date": "2010",
+            "achievements": [
+                {"info":"Lead Software Engineer responsible for directing a team of engineers to build GLIDE, a data-exchange application supporting hundreds of users across the NASA Agency. It enables multiple engineering disciplines to collaboratively design spacecraft in real-time without having to travel between centers and is currently still maintained and used weekly."},
+                {"info":"Designed and implemented as a client-server model enabling cross-platform support and the framework to allow integration into third-party applications through a RESTful API."},
+                {"info":"Added a chat-room, file-sharing, revision history and control, and parameter value graphing to monitor changes over time allowing the users to remain in the application while still completing secondary tasks."}
+            ]
+        }
+    ],
+    "skills": [
+        { "info": "Amazon AWS: CloudFormation, Lambda, IAM, CloudFront, S3, EC2, ECS, EKS, RDS, Step Functions, Route53, SSM, SecretsManager" },
+        { "info": "SaaS: MuleSoft Anypoint, LogicMonitor, CloudHealth, SumoLogic, Logz.io, PubNub, Valimail, Akamai, CloudFlare" },
+        { "info": "Programming Languages: HTML/CSS, APIs, Ansible, Terraform, node.js, Java, Bash" },
+        { "info": "Services: Ansible Tower, Vagrant, Docker, Zabbix, Splunk, Grafana" },
+        { "info": "Databases: MySQL, MongoDB, Postgres, InfluxDB" },
+        { "info": "Servers: Apache, nginx, caddy, VMWare ESXi" },
+        { "info": "Linux/Unix: Ubuntu, CentOS, RHEL, OS X" }
+    ],
+    "projects": [
+        {
+            "title": "Pebble Applications",
+            "name": "Homie",
+            "link": "https://github.com/modulusx/homie-for-pebble",
+            "detail": "A dynamically-driven application that builds a simple menu interface from a service description generated on a user-defined server provided by a REST API. Also built to enable remote control of anything."
+        },
+        {
+            "title": "Volunteering",
+            "name": "FIRST Robotics",
+            "link": "http://www.usfirst.org/",
+            "detail": "3 years as a Robot Inspector assuring safety and compliance for teams robots."
+        },
+        {
+            "title": "Volunteering",
+            "name": "NASA Exploring Post 631 - Computer Technology",
+            "link": "https://explorersposts.grc.nasa.gov/",
+            "detail": "2 years teaching, presenting, and providing help and inspiration to high school STEM students on opportunities in science, technology, engineering, and mathematics (STEM) including Lego NXT Robots, Arduinos, Programming and Web Development."
+        }
+    ],
+    "degrees": [
+        {
+            "co": "Cleveland State University",
+            "year": "2012",
+            "name": "M.S. in Software Engineering, GPA 4.0"
+        },
+        {
+            "co": "University of Akron",
+            "year": "2006",
+            "name": "B.S. in Computer Science, Minor in Spanish"
+        }
+    ],
+    "awards": [
+        {
+            "org": "Boy Scouts of America",
+            "year": "1998",
+            "name": "Eagle Scout"
+        }
+    ],
+    "social": [
+        {
+            "img": "img/in.jpg",
+            "tooltip": "Connect with me on LinkedIn!",
+            "link": "https://www.linkedin.com/in/mrkunkel"
+        },
+        {
+            "img": "img/gh.png",
+            "tooltip": "Check out my github projects!",
+            "link": "https://github.com/modulusx"
+        }
+    ]
+}
